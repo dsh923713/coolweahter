@@ -4,6 +4,6 @@
     <list>
         <mapping class="android.com.coolweather.db.Province"/>
         <mapping class="android.com.coolweather.db.County"/>
-        <mapping class="android.com.coolweather.db.Ctiy"/>
+        <mapping class="android.com.coolweather.db.City"/>
     </list>
 </litepal>

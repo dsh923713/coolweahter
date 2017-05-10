@@ -27,8 +27,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile 'org.litepal.android:core:1.5.1'
-    compile 'com.squareup.okhttp3:okhttp:3.7.0'
-    compile 'com.google.code.gson:gson:2.8.0'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'org.litepal.android:core:1.5.1'//litepal数据库框架
+    compile 'com.squareup.okhttp3:okhttp:3.7.0' //okhttp3网络连接框架
+    compile 'com.google.code.gson:gson:2.8.0'  //gson解析框架
+    compile 'com.github.bumptech.glide:glide:3.7.0'  //glide图片加载框架
+//    compile 'com.android.support:recyclerview-v7:25.3.1'//recyclearview控件
+//    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.15' //recyclearView万能适配器
 }

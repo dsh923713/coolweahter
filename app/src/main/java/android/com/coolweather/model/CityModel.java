@@ -1,15 +1,15 @@
-package android.com.coolweather.db;
+package android.com.coolweather.model;
 
-import org.litepal.crud.DataSupport;
+import java.io.Serializable;
 
 /**
  * Created by Administrator on 2017/5/9 0009.
  */
 
-public class Ctiy extends DataSupport {
+public class CityModel implements Serializable {
     private int id;
     private String cityName;
-    private String cityCode;
+    private int cityCode;
     private int provinceId;
 
     public int getId() {
@@ -28,11 +28,11 @@ public class Ctiy extends DataSupport {
         this.cityName = cityName;
     }
 
-    public String getCityCode() {
+    public int getCityCode() {
         return cityCode;
     }
 
-    public void setCityCode(String cityCode) {
+    public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 
